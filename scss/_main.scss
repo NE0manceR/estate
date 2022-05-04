@@ -1,0 +1,57 @@
+@import "colors";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: $main-black;
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0;
+
+    @media (max-width: 750px) {
+        width: 100%;
+        padding: 50px 16px;
+    }
+}
+
+.gray-bcg {
+    background-color: $main-grey;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    &__orang-text {
+        font-size: 14px;
+        color: $main-orang;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        font-size: 36px;
+
+        @media (max-width: 750px) {
+            font-size: 32px;
+        }
+    }
+
+    &__description {
+        font-size: 18px;
+        padding-top: 12px;
+        color: #6F7278;
+        text-align: center;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}

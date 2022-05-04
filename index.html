@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="scss/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="mobile-menu">
+    <div class="mobile-menu__wrap">
+      <ul class="mobile-menu__list">
+        <li><a class="nav__link" href="">Listings</a></li>
+        <li><a class="nav__link" href="">Newsroom</a></li>
+        <li><a class="nav__link" href="">Contact</a></li>
+        <li><a class="nav__link" href="">Our team</a></li>
+      </ul>
+    </div>
+  </div>
+  <header class="container header-container header">
+    <a class="header__logo logo" href="/">
+      <img class="logo__img" src="./images/logo_type_1.svg" alt="logo">
+    </a>
+    <nav class="header__nav nav">
+      <ul class="nav__list">
+        <li><a class="nav__link" href="">Listings</a></li>
+        <li><a class="nav__link" href="">Newsroom</a></li>
+        <li><a class="nav__link" href="">Contact</a></li>
+        <li><a class="nav__link" href="">Our team</a></li>
+      </ul>
+    </nav>
+
+    <div class="header__burger-icon burger-menu">
+      <span class="burger-menu__line"></span>
+      <span class="burger-menu__line"></span>
+      <span class="burger-menu__line"></span>
+    </div>
+  </header>
+  <section class="general">
+    <div class="general__text">
+      <img class="general__logo general__logo_position" src="images/logo_type_2.svg" alt="logo">
+      <h1 class="general__title">We're here to help you find a new home.</h1>
+    </div>
+    <img class="general__bcg" src="./images//main-section-bcg.png" alt="img">
+    <div class="general__bcg-filter"></div>
+    <a class="general__link-arrow" href="#goal">
+      <img src="images/icons/ic_arrow-down.svg" alt="arrow">
+    </a>
+  </section>
+  <section id="goal" class="gray-bcg">
+    <div class="container goal">
+      <div class="goal__text-wrap">
+        <div class="title goal__title">
+          <span class="title__orang-text">Our goal</span>
+          <h2 class="title__text goal__title-text">We are dedicated to finding a house that you'll love.</h2>
+        </div>
+        <div class="goal__feedback">
+          <span class="goal__feedback-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+            enim in eros elementum
+            tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae
+            erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique
+            posuere.
+            <br>
+            <br>
+            Interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem
+            imperdiet. Nunc ut sem vitae risus tristique posuere.
+
+          </span>
+          <div class="goal__user user">
+            <img class="user__avatar" src="images/user.jpg" alt="img">
+            <div class="user__text-wrap">
+              <span class="user__name">Alex Neo</span>
+              <span class="user__profession">Front-End Developer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="requirements container">
+    <div class="title requirements__title">
+      <span class="title__orang-text">Our requirements</span>
+      <h2 class="title__text">How we choose our listings.</h2>
+      <h3 class="title__description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus.
+      </h3>
+    </div>
+
+    <div class="requirements__slider slider">
+      <img class="slider__main-photo" src="images/1.jpg" alt="">
+      <div class="slider__btn-wrap">
+        <div id="1" class="slider__btn active">
+          <img class="slider__icon" src="images/icons/ic__slider_1.svg" alt="icon">
+          <h5 class="slider__title">Stellar locations</h5>
+          <span class="slider__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+        </div>
+        <div id="2" class="slider__btn">
+          <img class="slider__icon" src="images/icons/ic__slider_2.svg" alt="icon">
+          <h5 class="slider__title">Stellar locations</h5>
+          <span class="slider__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+        </div>
+        <div id="3" class="slider__btn">
+          <img class="slider__icon" src="images/icons/ic__slider_3.svg" alt="icon">
+          <h5 class="slider__title">Stellar locations</h5>
+          <span class="slider__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+<script src="script.js"></script>
+
+</html>

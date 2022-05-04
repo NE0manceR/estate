@@ -1,0 +1,65 @@
+@import "../colors";
+
+.goal {
+    &__text-wrap {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+
+        @media (max-width: 1050px) {
+            flex-direction: column;
+        }
+    }
+
+    &__title {
+        align-items: flex-start;
+        flex-basis: 48%;
+        flex-shrink: 0;
+
+        @media (max-width: 1050px) {
+            align-items: center;
+        }
+    }
+
+    &__title-text {
+        font-size: 48px;
+
+        @media (max-width: 750px) {
+            font-size: 32px;
+        }
+    }
+
+    &__feedback-text {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .user {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        .user__avatar {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 100%;
+            border: 3px solid #caccd1;
+        }
+
+        &__text-wrap {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        &__name {
+            color: #45525b;
+        }
+
+        &__profession {
+            text-transform: uppercase;
+            color: #6f7278;
+        }
+    }
+}
