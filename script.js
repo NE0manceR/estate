@@ -137,8 +137,11 @@ addCard(limit);
 
 
 
-document.addEventListener('DOMContentLoaded', setSize)
 window.addEventListener('resize', setSize)
+
+setTimeout(() => {
+    setSize()
+}, 50)
 
 
 // функція яка задає розмір картинкам зберігаючи пропорцію
