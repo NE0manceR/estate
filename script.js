@@ -67,6 +67,7 @@ let limit = 6 // початковий ліміт картинок
 
 
 function addCard(items_limit) {
+    console.log('work');
     items_wrap.innerHTML = ''; // очищає повністью контейнер
 
     items.forEach(({ type, beds, bathrooms, rooms, title }, index) => {
